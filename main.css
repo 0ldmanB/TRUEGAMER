@@ -72,10 +72,17 @@
 #trueGamer{
 	padding-bottom: 0px;
 	margin-bottom:  0px;
+
 }
 
 
+#bottomBar{
+	background-color: #FF2CB1;
 
+	padding-top:50px;
+	padding-bottom: 50px;
+	margin: 0px;
+}
 /* General CSS */
 
 
