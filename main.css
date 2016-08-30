@@ -1,0 +1,130 @@
+/* Page Elements */
+
+#navBar{
+	background-color: #1141C8 ;
+	padding: 0px;
+	margin: 0px;
+	color:#FF2CB1;
+	transition: background-color 1s ease;
+	font-family: 'Share Tech Mono';
+
+
+}
+
+#navText{
+	overflow-wrap: break-word;
+}
+
+
+.flash{
+	animation-name: flasher;
+	animation-duration: .5s;
+	animation-iteration-count: infinite;
+}
+
+#body{
+	background-color:#0ED3BA;
+	transition: background-color 1s ease;
+
+}
+
+
+
+#load{
+
+  text-decoration:none;
+	padding: 5px 20px 5px 20px;
+	background-color:lime;
+	font-family: 'Butcherman';
+	font-size: 150%;
+
+  margin:auto;
+  display:block;
+
+}
+
+#load:hover{
+
+  text-decoration:none;
+	padding: 5px 20px 5px 20px;
+	background-color:pink;
+	font-family: 'Butcherman';
+	font-size: 150%;
+
+  margin:auto;
+  display:block;
+
+}
+
+#load:active{
+
+	text-decoration:none;
+	padding: 5px 20px 5px 20px;
+	background-color:blue;
+	font-family: 'Butcherman';
+	font-size: 150%;
+
+  margin:auto;
+  display:block;
+
+}
+
+#trueGamer{
+	padding-bottom: 0px;
+	margin-bottom:  0px;
+}
+
+
+
+/* General CSS */
+
+
+
+.width{
+	width: 100%;
+}
+
+.noMargin{
+	margin:0px;
+}
+
+.textCenter{
+	text-align: center;
+}
+
+.largeFont{
+	font-size: 400%;
+}
+
+
+.bungee{
+	font-family: 'Bungee Inline';
+}
+
+
+
+@keyframes flasher {
+    0%   {background-color: #1141C8;}
+    51%  {background-color: #F8F933;}
+    100%  {background-color: #1141C8;}
+
+}
+
+@keyframes bgflasher {
+    0%   {background-color: #0ED3BA;}
+    51%  {background-color: #FF2CB1;}
+    100%  {background-color: #0ED3BA;}
+
+}
+
+
+
+/* Spare Colours 
+
+Dull yellow: #E1F676;
+
+Marigold: #ECC13D;
+
+dull seafoam?: #72DB8F;
+
+candy apple: #B20022;
